@@ -8,7 +8,7 @@ import (
 )
 
 func TestConvert(t *testing.T) {
-	actual := Convert(15)
-	expected := 15
+	actual := Convert(150)
+	expected := 150
 	assert.Equal(t, expected, actual, fmt.Sprintf("Expected to be %v", expected))
 }
